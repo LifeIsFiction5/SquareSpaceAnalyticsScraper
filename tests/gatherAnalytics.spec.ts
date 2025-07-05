@@ -28,5 +28,5 @@ const allValuesTrafficSources = await page.locator(".css-160wa40").allTextConten
 console.log("SEARCH:", searchValueTest);
 console.log("ALL VALUES:", allValuesTrafficSources)
 
-console.log(`Visitors: ${visits},  Unique Visitors: ${uniqueVisitors}, Page Views: ${pageViews}`);
+console.log(`Visitors: ${visits},\n  Unique Visitors: ${uniqueVisitors},\n  Page Views: ${pageViews}`);
 });
